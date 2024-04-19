@@ -1,0 +1,226 @@
+<resources>
+    <string name="app_name">ChatGPTApp</string>
+    <string name="nombre_hint">Ingrese su nombre</string>
+    <string name="edad_hint">Ingrese su edad</string>
+    <string name="continuar">Continuar</string>
+    <string name="siguiente">Siguiente</string>
+
+    <!--Primer activity-->
+    <string name="err_nombre_vacio">Debe ingresar su nombre</string>
+    <string name="err_edad_vacia">Debe ingresar su edad</string>
+
+    <!-- Array de todas las preguntas -->
+    <string-array name="mi_array_preguntas">
+        <!-- 1 -->
+        <item>¿Con cuántos amigos compartes tus problemas?</item>
+        <!-- 2 -->
+        <item>¿Cuántos abrazos o besos recibes por semana?</item>
+        <!-- 3 -->
+        <item>¿Cuál es la forma de tu cuerpo?</item>
+        <!-- 4 -->
+        <item>¿Cuán grande es tu barriga?</item>
+        <!-- 5 -->
+        <item>¿Con qué frecuencia sientes cansancio?</item>
+        <!-- 6 -->
+        <item>¿Fumas?</item>
+        <!-- 7 -->
+        <item>¿Tomas refrescos o jugos sintéticos o industriales?</item>
+        <!-- 8 -->
+        <item>¿Consumes enlatados y comidas en conserva?</item>
+        <!-- 9 -->
+        <item>¿Cuántes veces por semana te sientes demasiado lleno después de comer?</item>
+        <!-- 10 -->
+        <item>¿Cuántos resfríos sufristeis el último año?</item>
+        <!-- 11 -->
+        <item>¿Has consumido antibióticos los últimos cinco años?</item>
+        <!-- 12 -->
+        <item>¿Cuántas veces por semana caminas o realizas ejercicio por 30 minutos o más?</item>
+        <!-- 13 -->
+        <item>¿Cuántas veces por semana haces ejercicios de fuerza muscular?</item>
+    </string-array>
+
+    <!-- Array de todas las respuestas -->
+    <array name="resp1">
+        <item>Con ninguno</item>
+        <item>Con uno a tres amigos</item>
+        <item>Con cuatro o más</item>
+    </array>
+
+    <array name="resp2">
+        <item>Ninguno</item>
+        <item>De 1 a 3</item>
+        <item>Cuatro o más</item>
+    </array>
+
+    <array name="resp3">
+        <item>Obesa</item>
+        <item>Ligero Sobrepeso</item>
+        <item>Cinco kilos de sobrepeso</item>
+        <item>Perfecta para mi altura</item>
+        <item>Por debajo del peso</item>
+    </array>
+
+    <array name="resp4">
+        <item>Muy Grande</item>
+        <item>Redonda</item>
+        <item>Casi chata</item>
+        <item>Sin ninguna</item>
+    </array>
+
+    <array name="resp5">
+        <item>Casi todos los días</item>
+        <item>Casi todos los días después de alomorzar</item>
+        <item>A veces</item>
+        <item>Nunca</item>
+    </array>
+
+    <array name="resp6">
+        <item>No, nunca fumé</item>
+        <item>Dejé, hace 5 años o más</item>
+        <item>Dejé hace 3 a 5 años</item>
+        <item>Dejé hace 1 a 3 años</item>
+        <item>Dejé este año</item>
+        <item>Si, fumo</item>
+    </array>
+
+    <array name="resp7">
+        <item>Nunca</item>
+        <item>Uno a tres vasos por semana</item>
+        <item>Cuatro a seis vasos</item>
+        <item>Más de siete</item>
+    </array>
+
+    <array name="resp8">
+        <item>Para todas las comidas</item>
+        <item>La mayoría</item>
+        <item>Para menos de la mitad de mis comidas</item>
+        <item>Nunca uso comida conservadas</item>
+    </array>
+
+    <array name="resp9">
+        <item>Más de siete veces</item>
+        <item>De 3 a 6</item>
+        <item>De 1 a 2</item>
+        <item>Nunca</item>
+    </array>
+
+    <array name="resp10">
+        <item>Cinco o más</item>
+        <item>Tres o cuatro</item>
+        <item>Uno o dos</item>
+        <item>Ninguno</item>
+    </array>
+
+    <array name="resp11">
+        <item>No</item>
+        <item>Una a dos veces</item>
+        <item>Tres o más veces</item>
+    </array>
+
+    <array name="resp12">
+        <item>Nunca</item>
+        <item>De 1 a 2</item>
+        <item>De 3 a 4</item>
+        <item>Cinco o más</item>
+    </array>
+
+    <array name="resp13">
+        <item>Nunca</item>
+        <item>Una o dos</item>
+        <item>De 3 a 5</item>
+        <item>Seis o más</item>
+    </array>
+
+    <!-- Valores de las Respuestas -->
+    <string-array name="val0">
+        <item>1</item>
+        <item>-0.5</item>
+        <item>-1</item>
+    </string-array>
+
+    <string-array name="val1">
+        <item>1</item>
+        <item>-0.5</item>
+        <item>-1</item>
+    </string-array>
+
+    <string-array name="val2">
+        <item>3</item>
+        <item>2</item>
+        <item>1</item>
+        <item>-1.5</item>
+        <item>-1</item>
+    </string-array>
+
+    <string-array name="val3">
+        <item>2</item>
+        <item>1.5</item>
+        <item>0</item>
+        <item>-0.5</item>
+    </string-array>
+
+    <string-array name="val4">
+        <item>2</item>
+        <item>1.5</item>
+        <item>0.5</item>
+        <item>-1</item>
+    </string-array>
+
+    <string-array name="val5">
+        <item>-3</item>
+        <item>-2</item>
+        <item>-1</item>
+        <item>0</item>
+        <item>1</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="val6">
+        <item>-1</item>
+        <item>0.5</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <string-array name="val7">
+        <item>-3</item>
+        <item>1</item>
+        <item>-1</item>
+        <item>-2</item>
+    </string-array>
+
+    <string-array name="val8">
+        <item>3</item>
+        <item>2</item>
+        <item>1</item>
+        <item>-1.5</item>
+    </string-array>
+
+    <string-array name="val9">
+        <item>1.5</item>
+        <item>1</item>
+        <item>-0.5</item>
+        <item>-1</item>
+    </string-array>
+
+    <string-array name="val10">
+        <item>-2</item>
+        <item>2</item>
+        <item>5</item>
+    </string-array>
+
+    <string-array name="val11">
+        <item>1</item>
+        <item>0</item>
+        <item>-0.5</item>
+        <item>-1.5</item>
+    </string-array>
+
+    <string-array name="val12">
+        <item>1</item>
+        <item>0.5</item>
+        <item>-1.5</item>
+        <item>-0.5</item>
+    </string-array>
+
+</resources>

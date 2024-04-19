@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="MyTabLayoutIcon" parent="Widget.Design.TabLayout">
+        <!-- Cambiar la posición del icono a la izquierda -->
+        <item name="tabGravity">start</item>
+        <item name="tabIconTint">@color/black</item>
+    </style>
+</resources>
